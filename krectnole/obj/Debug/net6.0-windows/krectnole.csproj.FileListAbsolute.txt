@@ -19,3 +19,4 @@ C:\Users\kudaj\source\repos\krectnole\krectnole\obj\Debug\net6.0-windows\refint\
 C:\Users\kudaj\source\repos\krectnole\krectnole\obj\Debug\net6.0-windows\krectnole.pdb
 C:\Users\kudaj\source\repos\krectnole\krectnole\obj\Debug\net6.0-windows\krectnole.genruntimeconfig.cache
 C:\Users\kudaj\source\repos\krectnole\krectnole\obj\Debug\net6.0-windows\ref\krectnole.dll
+C:\Users\kudaj\source\repos\krectnole\krectnole\bin\Debug\net6.0-windows\resources\11.png

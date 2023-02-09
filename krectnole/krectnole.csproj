@@ -17,4 +17,10 @@
     </Resource>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="resources\11.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

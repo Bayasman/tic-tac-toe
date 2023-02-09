@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:krectnole"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="256" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Icon="./Resources/11.png">
+        Title="krectnole" Height="450" Width="256" WindowStartupLocation="CenterScreen">
     <Grid>
         <Menu Height="19" VerticalAlignment="Top">
             <MenuItem Header="_Game">
@@ -14,15 +14,15 @@
             </MenuItem>
             <MenuItem Header="_About" Click="About_Click"/>
         </Menu>
-        <Button x:Name="btA1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_MouseEnter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="0,19,0,0"/>
-        <Button x:Name="btA2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_MouseEnter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="80,19,0,0"/>
-        <Button x:Name="btA3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_MouseEnter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="160,19,0,0"/>
-        <Button x:Name="btB1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_MouseEnter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="0,99,0,0"/>
-        <Button x:Name="btB2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_MouseEnter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="80,99,0,0"/>
-        <Button x:Name="btB3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_MouseEnter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="160,99,0,0"/>
-        <Button x:Name="btC1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_MouseEnter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="0,179,0,0"/>
-        <Button x:Name="btC2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_MouseEnter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="80,179,0,0"/>
-        <Button x:Name="btC3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_MouseEnter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="160,179,0,0"/>
+        <Button x:Name="btA1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_Enter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="0,19,0,0"/>
+        <Button x:Name="btA2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_Enter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="80,19,0,0"/>
+        <Button x:Name="btA3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_Enter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="160,19,0,0"/>
+        <Button x:Name="btB1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_Enter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="0,99,0,0"/>
+        <Button x:Name="btB2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_Enter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="80,99,0,0"/>
+        <Button x:Name="btB3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_Enter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="160,99,0,0"/>
+        <Button x:Name="btC1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_Enter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="0,179,0,0"/>
+        <Button x:Name="btC2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_Enter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="80,179,0,0"/>
+        <Button x:Name="btC3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="80" IsTabStop="False" Focusable="False" FontSize="36" FontFamily="Adobe Gothic ctd B" Click="bt_Click" MouseEnter="bt_Enter" MouseLeave="bt_Leave" Foreground="#FF8E8EA6" Margin="160,179,0,0"/>
 
         <Image HorizontalAlignment="Left" VerticalAlignment="Top" Height="49" Width="51" Margin="192,259,0,0" Source="./resources/12.png" MouseDown="Link_Click"/>
         <Label x:Name="IBXWins" Content="x:0" HorizontalAlignment="left" VerticalAlignment="Top" Margin="10,264,0,0" FontSize="16" FontWeight="Bold" FontFamily="Arial Black"/>
